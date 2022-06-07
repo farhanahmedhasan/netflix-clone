@@ -11,3 +11,21 @@ body {
 .gradient-navbar {
   background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
 }
+
+.scrollbar-select::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scrollbar-select::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background: black;
+}
+
+.scrollbar-select::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 6px;
+}
+
+.scrollbar-select::-webkit-scrollbar-thumb:hover {
+  background: #c0a0b9;
+}

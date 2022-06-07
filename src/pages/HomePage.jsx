@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className="bg-main-color">
       <Navbar/>
-      <Featured/>
+      <Featured type='movie'/>
     </div>
   )
 }

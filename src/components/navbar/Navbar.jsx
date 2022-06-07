@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { MdSearch, MdNotifications, MdKeyboardArrowDown } from "react-icons/md";
 
-import { topbarLinks } from "../data/topbar";
+import { topbarLinks } from "../../data/topbar";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
