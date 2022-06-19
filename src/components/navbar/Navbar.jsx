@@ -6,15 +6,11 @@ import { topbarLinks } from "../../data/topbar";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const handleScroll = () => {
+  useEffect(()=>{
     window.onscroll = () => {
       setIsScrolled(window.scrollY === 0 ? false : true);
     }
     return ()=> window.onscroll = null
-  }
-
-  useEffect(()=>{
-    handleScroll()
   })
 
   return (
